@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Port Changer for Web Developers",
+  "version": "1.1",
+  "description": "Easily change the port of the current URL.",
+  "permissions": ["activeTab", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {}
+}
